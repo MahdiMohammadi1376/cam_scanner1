@@ -5,7 +5,7 @@ Detects a document in a photo, corrects the perspective, and produces a clean bi
 
 ## Demo
 
-
+!demo.git
 
 ## How it works
 
@@ -15,7 +15,7 @@ The pipeline has two separate jobs that must never be mixed:
 - Morphological close to bridge gaps in the document border
 - CLAHE to normalize uneven lighting
 - Canny edge detection on the equalized image
-- Convex hull + iterative `approxPolyDP` to find the largest quadrilateral
+- Convex hull + iterative "approxPolyDP" to find the largest quadrilateral
 
 **2. Content enhancement** — making the scan readable
 - Perspective warp to rectify the document to a top-down view
@@ -41,25 +41,24 @@ cam-scanner/
 
 ## Installation
 
-```bash
-git clone https://github.com/YOUR_USERNAME/cam-scanner.git
-cd cam-scanner
+bash
+git clone https://github.com/MahdiMohammadi1376/cam_scanner1.git
+cd cam-scanner1
 pip install -r requirements.txt
-```
+
 
 ## Usage
 
-```bash
+bash
 python main.py images/sample.jpg --output results/
-```
+
 
 ## Results
 
 The scanner outputs two files:
-- `scan_colour.jpg` — perspective-corrected colour image
-- `scan_binary.jpg` — clean black-and-white scan
+- `img.jpg` — perspective-corrected colour image
+- `scan.jpg` — clean black-and-white scan
 
----
 
 ## Tech stack
 
