@@ -5,7 +5,7 @@ Detects a document in a photo, corrects the perspective, and produces a clean bi
 
 ## Demo
 
-![demo]/demo.git
+![demo](/demo.git)
 
 ## How it works
 
