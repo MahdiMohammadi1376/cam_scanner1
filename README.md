@@ -5,9 +5,7 @@ Detects a document in a photo, corrects the perspective, and produces a clean bi
 
 ## Demo
 
-| Input photo | Perspective corrected | Binary scan |
-|---|---|---|
-| ![input](images/sample.jpg) | ![warped](images/sample_warped.jpg) | ![scanned](images/sample_scan.jpg) |
+
 
 ## How it works
 
