@@ -1,0 +1,28 @@
+# output files — generated at runtime, no need to store on GitHub
+results/
+
+# Python cache — created automatically by Python, never useful to share
+__pycache__/
+*.pyc
+*.pyo
+
+# virtual environment — too large and machine-specific
+.venv/
+venv/
+env/
+
+# Windows system file that appears in every folder
+Thumbs.db
+desktop.ini
+
+# Mac system file
+.DS_Store
+
+# IDE folders
+.vscode/
+.idea/
+
+# keep the images folder but ignore any large test images you add later
+# (the sample images you intentionally commit are fine — this just
+#  prevents you accidentally committing 50 test photos)
+images/test_*
